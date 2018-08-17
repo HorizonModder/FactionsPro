@@ -1,0 +1,16 @@
+name: FactionsPro
+author: HorizonModder
+description: Plugin de factions by HorizonModder
+version: 0.4
+main: faction\FactionPE
+api: 
+- 2.0.0
+- 3.0.0
+commands:
+  f:
+    description: use /f help
+    permission: f.command
+permissions:
+  f.command:
+    default: true
+    description: "Allow use of all faction commands"
